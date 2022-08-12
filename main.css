@@ -1,0 +1,256 @@
+/* -------------------------------- home page css ----------------------------- */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  body  {
+    background-image: url("football1.png");
+  }
+  
+  /* Style the header */
+  .header {
+    padding: 80px;
+    text-align: center;
+      color: rgb(6, 209, 213);
+  }
+  
+  /* Increase the font size of the h1 element */
+  .header {
+    font-size: 120px;
+}
+p {
+font-size: 130px;
+text-align: right;
+color: rgb(255, 0, 0);
+}
+
+  /* ---------------------------- about me page css --------------------- */
+
+.about-us-bg {
+    background-image: url('football2.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+.Pa h1 {
+    text-align: center;
+    color: rgb(160, 181, 25);
+    font-size: 40px;
+}
+
+.Pa p {
+    font-size: 20px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+.footy {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.sidebyside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sidebyside img {
+    width: 40%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    }
+/* ---------------------------- find games css --------------------- */
+.find-games {
+    background-image: url('football4.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+h2 {
+text-align: center;
+font-weight: bolder;
+font-size: 80px;
+}
+
+  /* Position text in the middle */
+.middle p {
+    color: rgb(218, 233, 8);
+    font-weight: bolder;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 40px;
+    text-align: center;
+    
+  }
+ 
+
+/* ---------------------------- contact us css --------------------- */
+
+.contact {
+    background-image: url('football3.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+  }
+.contact p {
+text-align: center;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  
+      body {
+        background-image: url('football1.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+      }
+      h1 {
+    text-align: center;
+  }
+ 
+  .fa {
+    padding: 40px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+.fa {
+    padding: 40px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+.logos {
+display: flex;
+align-items: flex-end;
+justify-content: space-around;
+}
